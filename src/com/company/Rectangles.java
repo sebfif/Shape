@@ -2,9 +2,11 @@ package com.company;
 
 public class Rectangles {
 
-
         private int height;
         private int width;
+
+        public Rectangles () {
+        }
 
         public void setHeight ( int ht){
             if (ht > 0) {
@@ -25,4 +27,4 @@ public class Rectangles {
         public int getWidth () {
             return width;
         }
-}
+    }
