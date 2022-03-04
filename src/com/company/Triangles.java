@@ -1,12 +1,12 @@
 package com.company;
 
-public class Triangles {
+public class Triangles extends Shapes {
 
-    private int side1;
+    static int side1;
 
-    private int side2;
+    static int side2;
 
-    private int side3;
+    static int side3;
 
 
     public Triangles (int side1, int side2, int side3) {
@@ -28,11 +28,6 @@ public class Triangles {
 
     public int getSide3() {
         return side3;
-    }
-
-
-    public int getArea() {
-        return (side1 + side2 + side3) / 2;
     }
 
 

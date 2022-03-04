@@ -1,7 +1,7 @@
 package com.company;
 
-public class Circles {
-    private int radius;
+public class Circles extends Shapes{
+    static int radius;
 
     public Circles(int r){
         radius = r;
@@ -13,7 +13,5 @@ public class Circles {
     public int getDiameter(){
         return radius*2;
     }
-    public double getArea(){
-        return Math.PI*Math.pow(radius,2);
-    }
+
 }

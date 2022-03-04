@@ -1,28 +1,20 @@
 package com.company;
 
-public class Rectangles {
+public class Rectangles extends Shapes {
 
-        private int height;
-        private int width;
+       static int height;
+        static int width;
 
-        public Rectangles () {
+        public Rectangles (int h, int w) {
+            this.height = h;
+           this.width = w;
         }
 
-        public void setHeight ( int ht){
-            if (ht > 0) {
-                height = ht;
-            }
-        }
 
         public int getHeight () {
             return height;
         }
 
-        public void setWidth ( int w){
-            if (w > 0) {
-                width = w;
-            }
-        }
 
         public int getWidth () {
             return width;

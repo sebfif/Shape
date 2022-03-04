@@ -1,25 +1,25 @@
 package com.company;
 
+
+
 public class Main {
 
     public static void main(String[] args) {
 
-        Rectangles rect1 = new Rectangles();
+        Rectangles rect1 = new Rectangles(40,20);
+        Rectangles rect2 = new Rectangles(4,8);
+        Circles circ1 = new Circles(6);
+        Circles circ2 = new Circles(30);
+        Triangles tri1 = new Triangles(10,10,15);
+        Triangles tri2 = new Triangles(15,20,30);
 
-        rect1.setHeight(10);
-        rect1.setWidth(15);
+        System.out.println("Arealet af rect1 er: " + rect1.getRectangleArea());
+        System.out.println("Arealet af rect2 er: " + rect2.getRectangleArea());
+        System.out.println("Arealet af circ1 er: " + circ1.getCircleArea() + ", Arealet af circ2 er: " + circ2.getCircleArea());
+        System.out.println("Arealet af tri1 er: " + tri1.getTriangleArea() + ", Arealet af tri2 er: " + tri2.getTriangleArea());
 
 
-        System.out.println("Højde på rect er: "+ rect1.getHeight()+ " Bredde på rect er: "+ rect1.getWidth());
 
-        Circles cir1 = new Circles(5);
-
-        System.out.println("Radius på circle er: "+cir1.getRadius()+" og diameteren er: "+cir1.getDiameter()+" og arealet er: "+cir1.getArea());
-
-        Triangles tri1 = new Triangles(1, 1, 1);
-
-        System.out.println("Triangle: Side 1 = " + tri1.getSide1() + "cm, Side 2 = " + tri1.getSide2()
-                + "cm, Side 3 = " + tri1.getSide3() + "cm, Arealet på tri1 er: " + tri1.getArea() + "cm2, Omkredsen på tri1 er: " + tri1.getPerimeter());
     }
 }
 
