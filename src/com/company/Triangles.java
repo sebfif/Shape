@@ -17,19 +17,11 @@ public class Triangles extends Shapes {
     }
 
 
-    public int getSide1() {
-        return side1;
-    }
+    //public int getSide1() { return side1; }
 
-    public int getSide2() {
-        return side2;
-    }
+    //public int getSide2() { return side2; }
 
-    public int getSide3() {
-        return side3;
-    }
+    //public int getSide3() { return side3; }
 
-    public int getPerimeter() {
-        return side1 + side2 + side3;
-    }
+    //public int getPerimeter() { return side1 + side2 + side3; }
 }
