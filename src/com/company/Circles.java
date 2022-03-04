@@ -4,13 +4,9 @@ public class Circles {
     private int radius;
 
     public Circles(int r){
-        radius =r;
+        radius = r;
     }
 
-
-    public void setRadius(int r){
-        r=radius;
-    }
     public int getRadius(){
         return radius;
     }

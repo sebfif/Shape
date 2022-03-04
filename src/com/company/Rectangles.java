@@ -2,29 +2,27 @@ package com.company;
 
 public class Rectangles {
 
-    private int height;
-    private int width;
 
+        private int height;
+        private int width;
 
-    public void setHeight(int ht) {
-        if (ht > 0){
-            height = ht;
+        public void setHeight ( int ht){
+            if (ht > 0) {
+                height = ht;
+            }
         }
-    }
 
-    public int getHeight(){
-        return height;
-    }
-
-    public void setWidth (int w) {
-        if (w > 0) {
-            width = w;
+        public int getHeight () {
+            return height;
         }
-    }
 
-    public int getWidth () {
-        return width;
-    }
+        public void setWidth ( int w){
+            if (w > 0) {
+                width = w;
+            }
+        }
 
-
+        public int getWidth () {
+            return width;
+        }
 }
