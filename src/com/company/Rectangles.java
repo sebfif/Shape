@@ -10,11 +10,9 @@ public class Rectangles extends Shapes {
            this.width = w;
         }
 
-
         public int getHeight () {
             return height;
         }
-
 
         public int getWidth () {
             return width;

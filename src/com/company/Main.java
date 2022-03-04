@@ -8,8 +8,10 @@ public class Main {
 
         Rectangles rect1 = new Rectangles(40,20);
         Rectangles rect2 = new Rectangles(4,8);
+
         Circles circ1 = new Circles(6);
         Circles circ2 = new Circles(30);
+
         Triangles tri1 = new Triangles(10,10,15);
         Triangles tri2 = new Triangles(15,20,30);
 

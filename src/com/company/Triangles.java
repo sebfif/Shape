@@ -25,11 +25,9 @@ public class Triangles extends Shapes {
         return side2;
     }
 
-
     public int getSide3() {
         return side3;
     }
-
 
     public int getPerimeter() {
         return side1 + side2 + side3;
