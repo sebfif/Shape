@@ -1,7 +1,7 @@
 package com.company;
 
 public class Circles extends Shapes{
-    static int radius;
+
 
     public Circles(int r){
         radius = r;
